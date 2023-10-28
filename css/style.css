@@ -5,6 +5,9 @@
   --fs-200: 2rem;
   --fs-300: 3rem;
   --fs-400: 4rem;
+
+  --clr-before: hsla(192, 100%, 50%, 0.219);
+  --clr-after: hsla(192, 100%, 50%, 0.719);
 }
 
 /* border to see all elements */
@@ -52,7 +55,7 @@ main {
 
 .navbar ul {
   list-style-type: none;
-  background-color: hsla(192, 100%, 50%, 0.219);
+  background-color: var(--clr-before);
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -67,7 +70,7 @@ main {
 }
 
 .navbar a:hover {
-  background-color: hsla(192, 100%, 50%, 0.719);
+  background-color: var(--clr-after);
 }
 
 .navbar li {
