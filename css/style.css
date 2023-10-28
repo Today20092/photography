@@ -39,8 +39,41 @@ body {
   );
   min-height: 100vh;
   background-attachment: fixed;
+  margin: 0px;
 }
 
 nav {
   margin: 1rem;
+}
+
+main {
+  margin: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsla(192, 100%, 50%, 0.219);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 1.1rem;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: hsla(192, 100%, 50%, 0.719);
+}
+
+.navbar li {
+  float: left;
+}
+
+h1 {
+  text-align: center;
 }
