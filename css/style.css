@@ -22,10 +22,6 @@ video {
 
 html {
   color-scheme: dark;
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(2, 0, 24));
-  background-size: 100% 100%;
-  height: 100vh;
-
   margin: 1rem;
 }
 
@@ -35,6 +31,14 @@ body {
   font-size: var(--fs-100);
   font-weight: 300;
   line-height: 1.5;
+  /* From fireship.io */
+  background: linear-gradient(
+    176deg,
+    rgb(18, 24, 27) 50%,
+    rgb(32, 39, 55) 100%
+  );
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
 nav {
